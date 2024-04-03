@@ -22,13 +22,16 @@ import FooterCard from '@/components/FooterCard.vue'
 </template>
 
 <style >
+body {
+  margin: 0
+}
 #layout {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  padding-bottom: 5rem;
+  padding-bottom: 6rem;
 }
 nav {
   padding: 30px;

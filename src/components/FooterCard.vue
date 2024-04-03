@@ -12,6 +12,6 @@
   bottom: 0;
   min-height: 5rem;
   place-content: center;
-  background-color: antiquewhite;
+  background-color: rgb(255, 251, 245);
 }
 </style>
