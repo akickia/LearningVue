@@ -1,6 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import Footer from '@/components/Footer.vue'
+import FooterCard from '@/components/FooterCard.vue'
 
 </script>
 
@@ -17,7 +17,7 @@ import Footer from '@/components/Footer.vue'
   </header>
 
   <RouterView />
-  <Footer />
+  <FooterCard />
 </div>
 </template>
 
@@ -28,6 +28,7 @@ import Footer from '@/components/Footer.vue'
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  padding-bottom: 5rem;
 }
 nav {
   padding: 30px;
